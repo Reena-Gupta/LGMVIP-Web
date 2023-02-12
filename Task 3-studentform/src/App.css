@@ -1,0 +1,147 @@
+.nav{
+    margin: 20px 0px;
+    background-color:#00c9a7;
+    color: white;
+    padding: 1px;
+    align-items: center;
+  }
+  .nav-text{
+    text-align: center;
+    align-items: center;
+    letter-spacing: 2px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto ;
+  }
+
+  .container2{
+    width: 35%;
+    padding-right: 10%;
+    padding-left: 3%;
+    border-right: 4px solid #00c9a7;
+  }
+
+  .container-label{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  input{
+    border-radius: 7px;
+    border: 2px solid #00c9a7;
+    outline: none;
+    padding: 2px;
+    height: 30px;
+    width: 200px;
+  }
+  
+  .container-gender{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .gender-label{
+    margin-right: 150px;
+  }
+
+  .genderr{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+  }
+
+  .gender{
+    width: 80px;
+    height: auto;
+  }
+
+  /*input[type="radio"]
+  {
+    border-radius: 7px;
+    border: 2px solid #00c9a7;
+  }*/
+
+  .button{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .button1{
+    background-color: #00c9a7;
+    padding: 12px;
+    height: 50px;
+    font-size: 17px;
+    margin-right: 22px;
+    color: white;
+    }
+    
+    .button2{
+      background-color: white;
+      padding: 12px;
+      height: 50px;
+      font-size: 17px;
+      margin-right: 22px;
+      color: #00c9a7;
+    }
+
+  .second-phase{
+    width: 42%;
+    padding-left: 8%;
+  }
+  
+  .second-phase h2{
+    margin-left: 20%;
+}
+
+td div h5{
+    margin-bottom:-22px ;
+  }
+  td div{
+    margin-bottom:-20px ;
+  }
+  table, td, th {
+    border: 2px solid #00c9a7;
+    
+  }
+  th{
+    color: white;
+    background-color: #00c9a7;
+    padding: 12px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-data{
+    padding: 12px;
+    width: 70%;
+  }
+  .data{
+    margin-top: -16%;
+    font-weight: 2%;
+  }
+
+  .image{
+    text-align: center;
+    align-items: center;
+    padding: 6px;
+  }
+  
+.checkbox-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;   
+}
+
