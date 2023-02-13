@@ -1,0 +1,35 @@
+.bigbox{
+    background-color: #007d83;
+    width: 28%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+.bigbox:hover{
+    box-shadow: 0px 2px 24px 1px #89d9d1;
+}
+.lower:hover{
+    box-shadow: 0px 2px 24px 1px #89d9d1;
+}
+.upper{
+    padding: 15px 12px 18px 15px;
+    border-radius: 12px;
+    position: relative;
+    background-color: white;
+    border: 2px solid #007d83;
+}
+.upper img{
+    margin-left: 30%;
+    border-radius: 50%;
+    width: 35%;
+    height: 35%;
+    border: 2px solid #007d83;
+    outline :none;
+}
+.lower{
+    text-align: center;
+    padding: 0px 12px 12px 12px;
+    background-color: 007d83;
+    border-radius: 12px;
+}
